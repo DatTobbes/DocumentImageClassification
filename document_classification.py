@@ -3,7 +3,7 @@ from PyQt5.QtWidgets import QLabel
 from utils.Opener import Opener
 import cv2
 from PyQt5.QtGui import *
-from Webservice.client import Client
+from webservice.client import Client
 from utils.image_converter import ImageConverter
 
 
