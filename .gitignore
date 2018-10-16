@@ -102,3 +102,12 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+# no Models
+.hdf5
+
+# no Images
+.png
+.jpg
+.JPEG
+.JPG
