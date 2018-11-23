@@ -9,12 +9,12 @@ from marshmallow import pprint
 from PredictionSchema import Prediction, PredictionSchema
 
 def __prediction_to_class(arg):
-    options = {0: "Eingangsrechnungen",
-               1: "Leistungsnachweise_LN_sy",
-               2: "Ausgangsrechnungen",
-               3: "Leistungsnachweise_LN_md",
-               4: "Leistungsbeschreibung_LB",
-               5: "Angebote"
+    options = {0: "ER",
+               1: "LN_sy",
+               2: "AR",
+               3: "LN_md",
+               4: "LB",
+               5: "AG"
                }
     return options.get(arg, "nothing")
 
